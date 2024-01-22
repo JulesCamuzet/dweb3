@@ -4,10 +4,8 @@ jules.addEventListener('mouseover', () => {
   console.log("Jules !")
 })
 
-const paragraphs = document.querySelectorAll("p");
+const noah = document.getElementById("noah")
 
-paragraphs.forEach((para) => {
-  para.addEventListener("mouseover", (event) => {
-    console.log(`le plsu beau => "${event.target.id}" `);
-  });
-});
+jules.addEventListener('mouseover', () => {
+  console.log("Noah !")
+})
