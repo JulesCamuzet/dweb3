@@ -6,6 +6,6 @@ jules.addEventListener('mouseover', () => {
 
 const noah = document.getElementById("noah")
 
-jules.addEventListener('mouseover', () => {
+noah.addEventListener('mouseover', () => {
   console.log("Noah !")
 })
